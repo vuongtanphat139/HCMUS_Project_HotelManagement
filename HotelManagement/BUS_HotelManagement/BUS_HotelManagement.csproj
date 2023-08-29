@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationManifest></ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAO_HotelManagement\DAO_HotelManagement.csproj" />
+    <ProjectReference Include="..\DTO_HotelManagement\DTO_HotelManagement.csproj" />
+  </ItemGroup>
+
+</Project>
